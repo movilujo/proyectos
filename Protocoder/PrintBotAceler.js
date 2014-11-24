@@ -1,6 +1,6 @@
 /*
 *	
-*	Description: Experimento para controlar un Prinbot con el Acelerometro del móvil
+*	Description: Experimento para controlar un Printbot con el Acelerometro del móvil
 *	by ........ Jose Luis Villarejo
 *   date ...... Octubre - 2014
 *
