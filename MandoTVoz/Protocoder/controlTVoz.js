@@ -1,13 +1,13 @@
 /*
 *
-* Description: Experimento para controlar una televisión con voz
+* Description: Experimento para controlar una televisiÃ³n con voz
 * by ........ Jose Luis Villarejo
 * date ...... Diciembre - 2014
 *
 */
 // Start and Connect Bluetooth
 network.startBluetooth();
-network.connectBluetoothSerialByMac("98:D3:31:20:1A:75", function(data) {
+network.connectBluetoothSerialByMac("gg:XX:rr:bb:vv:zz", function(data) {
 console.log(data);
 });
 ui.setScreenMode("fullscreen");
@@ -69,7 +69,7 @@ var btn = ui.addImageButton(250, 450, 250, 250, "VoztoBT.png", function(){
                 break;
           }
           
-          oido.setText("Oido: " + text + " envío: " + envio);
+          oido.setText("Oido: " + text + " envÃ­o: " + envio);
           network.sendBluetoothSerial(envio);
       });
  });
